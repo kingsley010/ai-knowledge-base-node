@@ -47,5 +47,5 @@ curl -X POST http://localhost:3000/api/knowledge/ask \
 ## Troubleshooting
 
 - Ensure you have a valid Gemini API key.
-- The vector store is in-memory, so data will be lost on restart.
+- The vector store is in-memory, so data will not be lost on restart.
 - For production, consider using a persistent vector database.
